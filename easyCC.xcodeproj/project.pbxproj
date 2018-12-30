@@ -14,6 +14,8 @@
 		6462DF4F21C0149700CB88D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6462DF4D21C0149700CB88D2 /* LaunchScreen.storyboard */; };
 		6462DF5A21C0149700CB88D2 /* easyCCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462DF5921C0149700CB88D2 /* easyCCTests.swift */; };
 		6462DF6521C0149700CB88D2 /* easyCCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462DF6421C0149700CB88D2 /* easyCCUITests.swift */; };
+		6462DF7321C029D400CB88D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462DF7221C029D400CB88D2 /* Extensions.swift */; };
+		6462DF7521C02F6000CB88D2 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462DF7421C02F6000CB88D2 /* Gradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6462DF6021C0149700CB88D2 /* easyCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easyCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6462DF6421C0149700CB88D2 /* easyCCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easyCCUITests.swift; sourceTree = "<group>"; };
 		6462DF6621C0149700CB88D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6462DF7221C029D400CB88D2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../Extensions.swift; sourceTree = "<group>"; };
+		6462DF7421C02F6000CB88D2 /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		6462DF4321C0149700CB88D2 /* easyCC */ = {
 			isa = PBXGroup;
 			children = (
+				6462DF7221C029D400CB88D2 /* Extensions.swift */,
+				6462DF7421C02F6000CB88D2 /* Gradient.swift */,
 				6462DF4421C0149700CB88D2 /* AppDelegate.swift */,
 				6462DF4621C0149700CB88D2 /* ViewController.swift */,
 				6462DF4821C0149700CB88D2 /* Main.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6462DF4721C0149700CB88D2 /* ViewController.swift in Sources */,
+				6462DF7321C029D400CB88D2 /* Extensions.swift in Sources */,
 				6462DF4521C0149700CB88D2 /* AppDelegate.swift in Sources */,
+				6462DF7521C02F6000CB88D2 /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
